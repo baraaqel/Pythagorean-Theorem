@@ -1,0 +1,9 @@
+public class ImportDemo {
+    public static void main (String[] args) {
+       double A = 4.0;
+       double B = 5.0;
+       double Total = (A*A + B*B);
+       Total = Math.sqrt(Total);
+       System.out.println(Total);
+    }
+}
